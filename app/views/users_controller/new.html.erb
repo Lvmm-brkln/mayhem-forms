@@ -1,0 +1,7 @@
+<h1>What's your DNA?</h1>
+<form action ='/new' method ='post'>
+    <input type = 'text'   name = 'username'></br></br>
+    <textarea name = 'bio'></textarea></br></br>
+    <input type = 'submit' name = 'envoyer'>
+    <input type = 'hidden' name = 'authenticity_token' value="<%= form_authenticity_token %>">
+</form>
