@@ -5,5 +5,6 @@ class UsersControllerController < ApplicationController
     user = User.create
     user.username = params["username"]
     user.bio = params["bio"]
+    redirect_to "/"
   end
 end
